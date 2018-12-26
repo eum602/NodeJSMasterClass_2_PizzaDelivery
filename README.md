@@ -7,7 +7,8 @@
 ```
 NODE_DEBUG=server NODE_ENV=staging node index.js
 ```
-3. **Test the app (For example using postman)**
-  3.1 dfsfsfds
+3.**Test the app (For example using postman)**
+
+    3.1. dfsfsfds
   
-  3.2 fdsgsdfasd
+    3.2. fdsgsdfasd
