@@ -15,10 +15,10 @@ NODE_DEBUG=server NODE_ENV=staging node index.js
     url:http://localhost:3000/users
     payload(body):
     {
-    "firstName":"Erick",
-    "lastName":"Pacheco",
-    "email":"eum602@gmail.com",
-    "streetAddress":"La Merced MzA. Lt22",
+    "firstName":"Jhon",
+    "lastName":"Doe",
+    "email":"abc@gmail.com",
+    "streetAddress":"Av.NN ...",
     "password":"thisIsAPassword",
     "tosAgreement":true
     }
@@ -30,14 +30,14 @@ NODE_DEBUG=server NODE_ENV=staging node index.js
     url:http://localhost:3000/tokens
     payload(body):
     {
-    "email": "eum602@gmail.com",
+    "email": "abc@gmail.com",
     "password":"thisIsAPassword"
     }    
     Results: this will return an unique TOKEN taht you should use in the next steps
     ```
     3.3. Create a new pizza delivery Order:
     method: POST
-    url: http://localhost:3000/shop?email=eum602@gmail.com
+    url: http://localhost:3000/shop?email=abc@gmail.com
     header: token: TOKEN
     payload(body):
     {
